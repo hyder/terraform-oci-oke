@@ -130,7 +130,7 @@ check_node_active = "none"
 
 dashboard_enabled = false
 
-kubernetes_version = "v1.16.8"
+kubernetes_version = "v1.17.9"
 
 node_pools = {
   np1 = {
@@ -187,11 +187,6 @@ email_address = ""
 tenancy_name = ""
 
 username = ""
-
-# helm
-helm_enabled = false
-
-helm_version = "3.1.0"
 
 # calico
 calico_enabled = false
